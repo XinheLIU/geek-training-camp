@@ -1,25 +1,4 @@
 # ML-Training-Camp: A course on Predictive Tabular Data Mining and Deep Learning in Tabular Data
-
-- [ML-Training-Camp: A course on Predictive Tabular Data Mining and Deep Learning in Tabular Data](#ml-training-camp-a-course-on-predictive-tabular-data-mining-and-deep-learning-in-tabular-data)
-  - [Introduction](#introduction)
-    - [Aims](#aims)
-    - [Course Material Update](#course-material-update)
-    - [Course Language](#course-language)
-  - [Course Outline](#course-outline)
-  - [Chapter 00: the Gap between Machine Learing Text Book and Engineering](#chapter-00-the-gap-between-machine-learing-text-book-and-engineering)
-    - [Chapter 01: Python](#chapter-01-python)
-    - [Chapter 02: Speed up Python code.](#chapter-02-speed-up-python-code)
-    - [Chapter 03: Data Manipulation and Visualization](#chapter-03-data-manipulation-and-visualization)
-    - [(Optional Chapter 3.5): Advanced Techniques in Speeding up Your Programming](#optional-chapter-35-advanced-techniques-in-speeding-up-your-programming)
-    - [Chapter 04: Machine Learning Basics](#chapter-04-machine-learning-basics)
-    - [(Optional Chapter 4.5) Advanced Theory for Theories That Matters.](#optional-chapter-45-advanced-theory-for-theories-that-matters)
-  - [Chapter 5](#chapter-5)
-  - [FAQ](#faq)
-    - [How to Contribute](#how-to-contribute)
-    - [Can I get the Latex Source code.](#can-i-get-the-latex-source-code)
-    - [Can I use your material](#can-i-use-your-material)
-    - [Can I get the videos?](#can-i-get-the-videos)
-
 ## Introduction
 
 ### Aims
@@ -38,7 +17,7 @@ Unfortunately, the original target audience is Chinese; therefore a Chinese vers
 
 ## [Chapter 00: the Gap between Machine Learing Text Book and Engineering](./chap0.md)
 
-### [Chapter 01: Python](./chap01/ReadMe.md)
+## [Chapter 01: Python](./chap01/ReadMe.md)
 
 - Colab and Jupyter Notebook.
 - How to set up a deep learning working environment.
@@ -48,7 +27,7 @@ Unfortunately, the original target audience is Chinese; therefore a Chinese vers
 - Decorator.
 - Dataclass and docstring.
   
-### [Chapter 02: Speed up Python code.](./chap02/ReadMe.md)
+## [Chapter 02: Speed up Python code.](./chap02/ReadMe.md)
 
 - Optimization work-flow. The pitfalls and the experiences.
 - General Profiling Methods with cProfile, line profiler, and intel Vtune.
@@ -56,7 +35,7 @@ Unfortunately, the original target audience is Chinese; therefore a Chinese vers
 - Parallel programming with an emphasis on Ray and Cython Openmp.
 - Exercises: Optimize Target Encoding.
 
-### [Chapter 03: Data Manipulation and Visualization](./chap03/ReadMe.md)
+## [Chapter 03: Data Manipulation and Visualization](./chap03/ReadMe.md)
 
 - Basics of Numpy. Except for common functionality, we will emphasize Broadcast, einsum, and take function. 
 - Use Jax to Speed up Numpy. The difference between Jax's functional programming methods and Numpy; How to use JIT, Scan, and PyTree. 
@@ -64,7 +43,7 @@ Unfortunately, the original target audience is Chinese; therefore a Chinese vers
 - 'dplyr' in R. 
 - Matplotlib and TensorBoard introduction. 
 
-### (Optional Chapter 3.5): Advanced Techniques in Speeding up Your Programming
+## (Optional Chapter 3.5): Advanced Techniques in Speeding up Your Programming
 
 - The primary CPU hardware architecture and how it affects your performance. 
 - How these techniques will be reflected by Vtune and how to change your code (Similar to the VTune Cookbook). 
@@ -81,7 +60,7 @@ Unfortunately, the original target audience is Chinese; therefore a Chinese vers
 - Maximum likelihood estimation and EM Algorithm.
 - Bayesian estimation and Variational inference. 
 
-### (Optional Chapter 4.5) Advanced Theory for Theories That Matters.
+## (Optional Chapter 4.5) Advanced Theory for Theories That Matters.
 
 - Why unifying GAN, VAE, and RL using probability networks. 
 - The limitation of the current application of optimal transport theory. Why it is useful and but not that useful. 
@@ -93,11 +72,19 @@ Unfortunately, the original target audience is Chinese; therefore a Chinese vers
 - Abstract Probabilistic Framework: Semimarting and Convergence of Stochastic Processes, Empirical Processes, Probability on Banach Spaces. Markov transition and Dynamic Systems. Stochastic Analysis on Manifolds. Probability in Banach Spaces. 
 - The Dirty ToolBox Inequalities. General tricks to derive ad-hoc inequalities from inequality in analysis and inequality in probability. The advanced methods that are based on the concentration of measure tricks, chaining tricks etc.  
 - How to study these: Which book should be read carefully and which book should occur only by reference. 
-
-## [Chapter 5](./chap01/ReadMe.md)
+- 
+## [Chapter 5](./chap05/ReadMe.md)
+## [Chapter 6](./chap06/ReadMe.md)
+## [Chapter 7](./chap07/ReadMe.md)
+## [Chapter 8](./chap08/ReadMe.md)
+## [Chapter 9](./chap09/ReadMe.md)
+## [Chapter 10](./chap10/ReadMe.md)
+## [Chapter 11](./chap11/ReadMe.md)
+## [Chapter 12](./chap12/ReadMe.md)
+## [Chapter 13](./chap13/ReadMe.md)
+## [Chapter 14](./chap14/ReadMe.md)
 
 ## FAQ
-
 ### How to Contribute
 
 All contributions are welcome. Especially more explanations. To contribute, raise an issue first, and we will go from there. 

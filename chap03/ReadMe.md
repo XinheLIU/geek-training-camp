@@ -40,7 +40,6 @@ Tensorboard
 
 ## [Jax](https://github.com/google/jax)
 
-
 ### [Enisum](https://numpy.org/doc/stable/reference/generated/numpy.einsum.html)
 
 ### Jax Operations
